@@ -1700,7 +1700,7 @@ static NSString *_lastnonActiveMessageId;
     [OneSignal submitNotificationOpened:messageId];
     
     //Try to fetch the open url to launch
-    [OneSignal launchWebURL:[customDict objectForKey:@"u"]];
+    //[OneSignal launchWebURL:[customDict objectForKey:@"u"]];
     
     [self clearBadgeCount:true];
     
